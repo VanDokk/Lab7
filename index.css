@@ -1,0 +1,60 @@
+.modal {
+    visibility: hidden;
+}
+
+.modal-overlay {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-window {
+    width: 500px;
+    height: 210px;
+    background: #fff;
+    margin: 100px auto;
+    border-radius: 30px;
+}
+
+.mw-header, .mw-body, .mw-footer {
+    display: flex;
+    border-bottom-color: rgb(222, 226, 230);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 5px;
+}
+
+.mw-header {
+
+}
+
+.mw-body {
+
+}
+
+.mw-footer {
+    border-bottom: 0;
+}
+
+.mw-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-header {
+    position: absolute;
+    left: 66%;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.show {
+    visibility: visible;
+}
+
+
+

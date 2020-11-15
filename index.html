@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lab4</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="Click()">Modal Window</button>
+    </div>
+    <div id="mw" class="modal">
+        <div class="modal-overlay">
+            <div class="modal-window">
+                <div class="mw-header">
+                    <h5 class="mw-title">Modal window</h5>
+                    <button onclick="Click()" class="btn-header">x</button>
+                </div>
+                <div class="mw-body">
+                    <p>Woohoo, you're reading this text in a modal!</p>
+                </div>
+                <div class="mw-footer">
+                    <div class="btns">
+                        <button onclick="Click()" class="btn-close">Close</button>
+                        <button btn="btn-save">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
