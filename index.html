@@ -7,26 +7,27 @@
 </head>
 <body>
     <div class="container">
-        <button onclick="Click()">Modal Window</button>
+        <button data-js="">Modal Window</button>
     </div>
     <div id="mw" class="modal">
-        <div class="modal-overlay">
-            <div class="modal-window">
+        <div class="modal-overlay" data-js="">
+            <div class="modal-window" data-js="">
                 <div class="mw-header">
                     <h5 class="mw-title">Modal window</h5>
-                    <button onclick="Click()" class="btn-header">x</button>
+                    <button data-js="" class="btn-header">x</button>
                 </div>
                 <div class="mw-body">
                     <p>Woohoo, you're reading this text in a modal!</p>
                 </div>
                 <div class="mw-footer">
                     <div class="btns">
-                        <button onclick="Click()" class="btn-close">Close</button>
+                        <button data-js="" class="btn-close">Close</button>
                         <button btn="btn-save">Save</button>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
     <script src="index.js"></script>
 </body>
